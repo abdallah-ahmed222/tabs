@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+body {
+    background:#302b63 ;
+}
+::selection {
+    color: #302b63;
+}
+:root {
+    --main-color:#4940ab;
+}
+footer,
+header {
+    background: var(--main-color);
+}
+.section-link {
+    color: #4940ab;
+}
+
+.main {
+    border: 1px solid var(--main-color);
+}
+.pens{
+    background: #4077ab;
+}
+.pens div {
+    display: none;
+    overflow: auto;
+}
+.pens .apear {
+    display: block;
+}
